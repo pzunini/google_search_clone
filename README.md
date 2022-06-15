@@ -1,2 +1,2 @@
-# google_search_clone
-Google Search Page Clone
+# Google Search Clone
+Replicate the google search main page to practice HTML & CSS
