@@ -1,5 +1,7 @@
+/* initialization*/
 :root {
   --color-one: #000000;
+  --color-two: #dfe1e5;
 }
 
 * {
@@ -25,7 +27,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* initialization ends*/
 
+/* header */
 header {
   width: 100%;
   height: 60px;
@@ -63,4 +67,56 @@ nav .nav-right-section .menu-icon {
 nav .nav-right-section img {
   border-radius: 50%;
   margin-left: 12px;
+}
+/* header ends*/
+
+/* main */
+main {
+  margin-top: 50px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto 35px auto;
+}
+
+main .main-logo img {
+  width: 272px;
+  height: 92px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto 35px auto;
+}
+
+main .main-input-container {
+  width: 100%;
+  border-radius: 100px;
+  border: 1px solid var(--color-two);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+/* main ends*/
+
+@media (max-width: 600px) {
+  main .main-input {
+    width: 400px;
+    margin: 0 auto 35px auto;
+  }
+
+  main .main-input input {
+    width: 320px;
+  }
+
 }
