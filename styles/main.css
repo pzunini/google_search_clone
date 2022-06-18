@@ -88,7 +88,7 @@ main {
 }
 
 main .main-logo {
-  width: 530px;
+  width: 100%;
   margin: 0 auto 35px auto;
 }
 
@@ -213,18 +213,18 @@ footer ul li a {
 
 
 /* media queries */
-@media (max-width: 480px) {
-
-  main .main-logo img {
-
-  }
+@media (max-width: 600px) {
 
   main .main-input {
-
+    width: 350px;
   }
 
   main .main-input input {
+    width: 280px;
+  }
 
+  main .main-buttons {
+    width: 350px;
   }
 
   footer {
